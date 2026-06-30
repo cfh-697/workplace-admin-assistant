@@ -44,9 +44,9 @@ ollama run qwen2.5-moe:1.5b
 ```
 
 ### 2. 启动智能行政面板
-进入工程根目录并安装依赖，然后在本地 `8502` 端口运行面板：
+进入工程根目录并安装依赖，然后在本地 `8503` 端口运行面板：
 ```bash
 pip install streamlit numpy
-streamlit run app.py --server.port 8502 --server.headless true
+streamlit run app.py --server.port 8503 --server.headless true
 ```
-打开浏览器访问 [http://localhost:8502](http://localhost:8502) 即可体验。
+打开浏览器访问 [http://localhost:8503](http://localhost:8503) 即可体验。
